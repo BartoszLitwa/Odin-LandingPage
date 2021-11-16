@@ -2,33 +2,27 @@
     background-color: #1F2937;
 }
 
-.header {
+.flex {
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;
     align-items: center;
+}
+
+.header {
     gap: space-between;
 }
 
 .container {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: flex-start;
-    align-items: center;
+    
 }
 
 .content {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: flex-start;
-    align-items: center;
+    
 }
 
 .footer {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: flex-start;
-    align-items: center;
+    
 }
 
 .text-logo {
@@ -37,10 +31,6 @@
 }
 
 .text-links {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
     gap: auto;
 }
 
