@@ -1,5 +1,6 @@
 * {
     background-color: #1F2937;
+    /*border: 1px solid red; */
 }
 
 .flex {
@@ -19,17 +20,14 @@
 
 .container {
     flex-direction: column;
+    flex: auto;
 }
 
-#content-section {
+.content-section {
     flex-direction: row;
     flex: 1 1 auto;
+    justify-content: center;
     gap: 50px;
-}
-
-.footer {
-    flex-direction: row;
-    flex: 1 1 auto;
 }
 
 .header .text-logo {
@@ -94,23 +92,25 @@
 .copyright {
     align-self: center;
     text-align: center;
+    flex: auto;
 }
 
-#information-section {
+.information-section {
     flex-direction: column;
-    justify-content: stretch;
+    flex: auto;
+    justify-content: space-between;
     background-color: white;
 }
 
 .information-items {
     flex-direction: row;
-    background-color: white;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    background-color: red;
 }
 
 .information-item {
     flex-direction: column;
-    flex: 1 1 auto;
+    flex: auto;
     background-color: white;
 }
 
@@ -120,6 +120,7 @@
     width: 150px;
     height: 150px;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .text-information-header {
@@ -136,8 +137,9 @@
     margin: 0px;
 }
 
-#quote-section {
+.quote-section {
     flex-direction: column;
+    flex: auto;
     background-color: #e5e7eb;
 }
 
@@ -162,12 +164,24 @@
     margin-top: -50px;
 }
 
-#action-section {
+.action-section {
     flex-direction: column;
+    flex: 2 1 auto;
     background-color: white;
 }
 
 .action-backgorund {
     flex-direction: row;
     background-color: #3882f6;
+    border-radius: 10px;
+    flex: auto;
+    padding: 25px;
+}
+
+.footer {
+    flex: 1 1 auto;
+}
+
+.footer-sign {
+    flex: auto;
 }
