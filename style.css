@@ -21,7 +21,7 @@
     flex-direction: column;
 }
 
-.content {
+#content-section {
     flex-direction: row;
     flex: 1 1 auto;
     gap: 50px;
@@ -29,7 +29,7 @@
 
 .footer {
     flex-direction: row;
-    
+    flex: 1 1 auto;
 }
 
 .header .text-logo {
@@ -40,6 +40,8 @@
 
 .header .text-links {
     flex: 3 1 auto;
+    justify-content: flex-end;
+    margin-right: 50px;
 }
 
 .link {
@@ -64,7 +66,7 @@
 
 .image-placeholder {
     background-color: grey;
-    width: 300px;
+    width: 400px;
     height: 200px;
 }
 
@@ -87,4 +89,85 @@
     padding: 5px;
     width: 75px;
     margin: 10px 0px;
+}
+
+.copyright {
+    align-self: center;
+    text-align: center;
+}
+
+#information-section {
+    flex-direction: column;
+    justify-content: stretch;
+    background-color: white;
+}
+
+.information-items {
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+.information-item {
+    flex-direction: column;
+    flex: 1 1 auto;
+    background-color: white;
+}
+
+.random-image {
+    border: 2px solid blue;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.text-information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    background-color: white;
+}
+
+.text-information-subtext {
+    color: #636363;
+    font-size: 18px;
+    background-color: white;
+    margin: 0px;
+}
+
+#quote-section {
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote-text-section {
+    margin: 50px;
+}
+
+.text-quote {
+    background-color: #e5e7eb;
+    margin: 0px;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.text-quote-sign {
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #e5e7eb;
+    margin: 0px;
+    align-self: flex-end;
+    margin-right: 100px;
+    margin-top: -50px;
+}
+
+#action-section {
+    flex-direction: column;
+    background-color: white;
+}
+
+.action-backgorund {
+    flex-direction: row;
+    background-color: #3882f6;
 }
